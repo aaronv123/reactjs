@@ -7,5 +7,5 @@ export const BLOGS = [
 export const STUDENTS = [
   { name: 'John Doe', program: 'BS Intelligent Systems', yearLevel: '3rd Year' },
   { name: 'Jane Smith', program: 'BS Computer Science', yearLevel: '2nd Year' },
-  { name: 'Bob Lee', program: 'BS Software Engineering', yearLevel: '3rd Year' }
+  { name: 'Aaron Penetrante', program: 'BS Software Engineering', yearLevel: '3rd Year' }
 ]

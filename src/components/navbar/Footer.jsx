@@ -5,8 +5,9 @@ export default function Footer(){
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div>About: A simple React + Vite practice site.</div>
-        <div>© {new Date().getFullYear()} Example</div>
+        <div>About</div><br />
+        <div>A computer science related blog site for students to share their thoughts and experiences.</div>
+        <div>© {new Date().getFullYear()} CSBLOG</div>
       </div>
     </footer>
   )

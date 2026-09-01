@@ -20,30 +20,6 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-
-        <section className="students-section">
-          <h2>Students</h2>
-          <div className="student-container">
-            <table className="student-table">
-              <thead>
-                <tr>
-                  <th>Student Name</th>
-                  <th>Program</th>
-                  <th>Year Level</th>
-                </tr>
-              </thead>
-              <tbody>
-                {STUDENTS.map((student, index) => (
-                  <tr key={index}>
-                    <td>{student.name}</td>
-                    <td>{student.program}</td>
-                    <td>{student.yearLevel}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
       </main>
       <Footer />
     </Router>
