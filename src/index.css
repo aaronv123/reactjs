@@ -1,0 +1,9 @@
+:root{--bg:#0f1114;--card:#151619;--muted:#9aa0a6;--accent:#06b6d4}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Roboto,Arial;background:var(--bg);color:#e6eef6}
+a{color:inherit}
+
+.app-container{max-width:1000px;margin:24px auto;padding:0 16px}
+.students-section{margin:32px 0}
+.student-table{width:100%;border-collapse:collapse}
+.student-table th,.student-table td{padding:10px;border:1px solid #222;text-align:left;background:transparent}

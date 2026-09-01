@@ -1,0 +1,4 @@
+.header{background:#0b0c0d;border-bottom:1px solid #222}
+.header-container{max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:12px}
+.logo a{color:var(--accent);text-decoration:none}
+.nav-menu a{color:#cbd5e1;margin-left:14px;text-decoration:none}

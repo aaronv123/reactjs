@@ -1,0 +1,4 @@
+.home-page .blog-hero{padding:40px 0;text-align:center}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.blog-card{background:var(--card);padding:20px;border-radius:8px}
+.blog-category{font-size:12px;color:var(--accent)}
